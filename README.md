@@ -1,7 +1,6 @@
-# webpack-react-kickstart
-**webpack+react前端开发启动样板器**
+# editor
+**稿件编辑发布系统**
 
-**修改自[vesparny/react-kickstart](https://github.com/vesparny/react-kickstart)**
 
 ## 特征
 * webpack + vanilla hot-module-replacement
@@ -17,7 +16,7 @@
 
 **克隆repository**
 ```
-git clone https://github.com/mahavira/webpack-react-kickstart
+git clone https://github.com/mahavira/ManuscriptEditing
 ```
 
 **安装**
