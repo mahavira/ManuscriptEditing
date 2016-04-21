@@ -1,0 +1,15 @@
+
+.middle {
+  position: relative;
+  flex: 1;
+  padding: 15px 5px 0;
+  .more{
+    position: absolute;
+    right: 0px;
+    bottom: 20px;
+  }
+}
+.editor{
+  width: 360px;
+  margin: 0 auto;
+}

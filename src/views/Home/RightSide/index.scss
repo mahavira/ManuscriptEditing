@@ -1,0 +1,43 @@
+.right-side {
+  width: 400px;
+  background: #DDD;
+  box-sizing: border-box;
+  .tab-content {
+    padding: 5px;
+    ul {
+      column-width: 126px;
+      column-gap: 5px;
+    }
+    li {
+      transition: opacity .4s ease-in-out;
+      display: inline-block;
+      column-break-inside: avoid;
+      list-style: none;
+      margin-bottom: 5px;
+      position: relative;
+      cursor: pointer;
+      &:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: #FFF;
+        bottom: 0;
+        right: 0;
+        border-radius: 4px;
+        transition: 0.4s;
+      }
+      &:hover {
+        &:before {
+          background: rgba(0, 0, 0, 0.1);
+        }
+      }
+    }
+    img {
+      background: #fefefe;
+      width: 100%;
+      display: block;
+      border-radius: 3px;
+    }
+  }
+}

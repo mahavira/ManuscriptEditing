@@ -1,0 +1,39 @@
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  line-height: 1.6
+}
+
+body {
+  -webkit-touch-callout: none;
+  font-family: -apple-system-font,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  background-color: #FFF;
+  line-height: inherit
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 400;
+  font-size: 16px
+}
+
+* {
+  margin: 0;
+  padding: 0
+}
+
+a {
+  color: #607fa6;
+  text-decoration: none
+}
+
+:global(#root) {
+  height: 100%;
+}
+[contenteditable]{
+  outline: none;
+}
+.scroll-content{
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+}
